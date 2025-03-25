@@ -1,0 +1,325 @@
+{
+    "DFC25": {
+        "files": [
+            "00002ap.ipynb",
+            "all_transactions_part_1.parquet",
+            "all_transactions_part_2.parquet",
+            "all_transactions_part_3.parquet",
+            "all_transactions_part_4.parquet",
+            "all_transactions_part_5.parquet",
+            "collecting_data.py",
+            "collect_data.ipynb",
+            "final_result.parquet",
+            "README.md",
+            "result_part_1.parquet",
+            "result_part_10.parquet",
+            "result_part_2.parquet",
+            "result_part_3.parquet",
+            "result_part_4.parquet",
+            "result_part_5.parquet",
+            "result_part_6.parquet",
+            "result_part_7.parquet",
+            "result_part_8.parquet",
+            "result_part_9.parquet",
+            "res_file_part_1.csv",
+            "XX_test.parquet",
+            "XX_train.parquet",
+            "Плыгун_Анна_ПМ23-2_ДЗ1.ipynb"
+        ],
+        "dirs": [
+            ".git",
+            "mydata"
+        ],
+        ".git": {
+            "files": [
+                "COMMIT_EDITMSG",
+                "config",
+                "description",
+                "FETCH_HEAD",
+                "HEAD",
+                "index",
+                "ORIG_HEAD",
+                "packed-refs"
+            ],
+            "dirs": [
+                "hooks",
+                "info",
+                "logs",
+                "objects",
+                "refs"
+            ],
+            "hooks": {
+                "files": [
+                    "applypatch-msg.sample",
+                    "commit-msg.sample",
+                    "fsmonitor-watchman.sample",
+                    "post-update.sample",
+                    "pre-applypatch.sample",
+                    "pre-commit.sample",
+                    "pre-merge-commit.sample",
+                    "pre-push.sample",
+                    "pre-rebase.sample",
+                    "pre-receive.sample",
+                    "prepare-commit-msg.sample",
+                    "push-to-checkout.sample",
+                    "sendemail-validate.sample",
+                    "update.sample"
+                ],
+                "dirs": []
+            },
+            "info": {
+                "files": [
+                    "exclude"
+                ],
+                "dirs": []
+            },
+            "logs": {
+                "files": [
+                    "HEAD"
+                ],
+                "dirs": [
+                    "refs"
+                ],
+                "refs": {
+                    "files": [],
+                    "dirs": [
+                        "heads",
+                        "remotes"
+                    ],
+                    "heads": {
+                        "files": [
+                            "Ann",
+                            "main"
+                        ],
+                        "dirs": []
+                    },
+                    "remotes": {
+                        "files": [],
+                        "dirs": [
+                            "origin"
+                        ],
+                        "origin": {
+                            "files": [
+                                "Ann",
+                                "HEAD"
+                            ],
+                            "dirs": []
+                        }
+                    }
+                }
+            },
+            "objects": {
+                "files": [],
+                "dirs": [
+                    "09",
+                    "25",
+                    "31",
+                    "32",
+                    "40",
+                    "45",
+                    "47",
+                    "4b",
+                    "52",
+                    "54",
+                    "72",
+                    "97",
+                    "9e",
+                    "a3",
+                    "b4",
+                    "c8",
+                    "da",
+                    "e1",
+                    "e5",
+                    "e6",
+                    "e9",
+                    "f9",
+                    "info",
+                    "pack"
+                ],
+                "09": {
+                    "files": [
+                        "ac93cf1d89cc72621f3046b650d9581bbf9315"
+                    ],
+                    "dirs": []
+                },
+                "25": {
+                    "files": [
+                        "5a19b7831b5e22a5ad6822ad85c8039e467e3d"
+                    ],
+                    "dirs": []
+                },
+                "31": {
+                    "files": [
+                        "60a00c6123cd7f6773c328629b965095e8b029"
+                    ],
+                    "dirs": []
+                },
+                "32": {
+                    "files": [
+                        "3cd9b4c66b5e085f1f037363f67cccd16c4f1e"
+                    ],
+                    "dirs": []
+                },
+                "40": {
+                    "files": [
+                        "e40fa71a81b2cf4de7669f993eeb741779060c"
+                    ],
+                    "dirs": []
+                },
+                "45": {
+                    "files": [
+                        "cc4cc297c7ec2d17f981fe88dc8c4a4e902ca0",
+                        "e156aec3de719a30814cb287d7b201dcd24423"
+                    ],
+                    "dirs": []
+                },
+                "47": {
+                    "files": [
+                        "9df4aff1a4d4420eec5307f4153d81a0b0bd36"
+                    ],
+                    "dirs": []
+                },
+                "4b": {
+                    "files": [
+                        "90a856fe5336c93d13cbff458e7ccd8fe57c38"
+                    ],
+                    "dirs": []
+                },
+                "52": {
+                    "files": [
+                        "cf71b6e6a26eb84e14703c83044682d4511c35"
+                    ],
+                    "dirs": []
+                },
+                "54": {
+                    "files": [
+                        "f657bb0972cd4d4bf69ad88524d3055b9da03b"
+                    ],
+                    "dirs": []
+                },
+                "72": {
+                    "files": [
+                        "d325325f8aa9de59f666edb90a8dc8dd825d98"
+                    ],
+                    "dirs": []
+                },
+                "97": {
+                    "files": [
+                        "a787466c8bf06d3592b0ba2e4550216f84b139"
+                    ],
+                    "dirs": []
+                },
+                "9e": {
+                    "files": [
+                        "beb8e3b83fd3ea75c3cd66d2aedca27f67cb9c"
+                    ],
+                    "dirs": []
+                },
+                "a3": {
+                    "files": [
+                        "cb8fa372fdedbccb6c13870236b08672d7e557"
+                    ],
+                    "dirs": []
+                },
+                "b4": {
+                    "files": [
+                        "770b09e667d9c887c30e1275139058b7f29672"
+                    ],
+                    "dirs": []
+                },
+                "c8": {
+                    "files": [
+                        "1e08b8813c9b4e6b5bc5d074a4f7d1fa115526"
+                    ],
+                    "dirs": []
+                },
+                "da": {
+                    "files": [
+                        "ac30212ab87aeef43899b8d9439edaabd16cc7"
+                    ],
+                    "dirs": []
+                },
+                "e1": {
+                    "files": [
+                        "449368cbac98b42a97fb80372e5aeece8bb5c9"
+                    ],
+                    "dirs": []
+                },
+                "e5": {
+                    "files": [
+                        "ed34205b347ee62eb6a6381a60c36c1bdc8a63"
+                    ],
+                    "dirs": []
+                },
+                "e6": {
+                    "files": [
+                        "9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+                    ],
+                    "dirs": []
+                },
+                "e9": {
+                    "files": [
+                        "47815950ff167cb93dda3686e41a04a64af4f1"
+                    ],
+                    "dirs": []
+                },
+                "f9": {
+                    "files": [
+                        "d8838cf010f200a68217a7fc398b290ccf7d26"
+                    ],
+                    "dirs": []
+                },
+                "info": {
+                    "files": [],
+                    "dirs": []
+                },
+                "pack": {
+                    "files": [
+                        "pack-4a7421b7096584b9588ab2ea283973b0f9e81173.idx",
+                        "pack-4a7421b7096584b9588ab2ea283973b0f9e81173.pack",
+                        "pack-4a7421b7096584b9588ab2ea283973b0f9e81173.rev"
+                    ],
+                    "dirs": []
+                }
+            },
+            "refs": {
+                "files": [],
+                "dirs": [
+                    "heads",
+                    "remotes",
+                    "tags"
+                ],
+                "heads": {
+                    "files": [
+                        "Ann",
+                        "main"
+                    ],
+                    "dirs": []
+                },
+                "remotes": {
+                    "files": [],
+                    "dirs": [
+                        "origin"
+                    ],
+                    "origin": {
+                        "files": [
+                            "Ann",
+                            "HEAD"
+                        ],
+                        "dirs": []
+                    }
+                },
+                "tags": {
+                    "files": [],
+                    "dirs": []
+                }
+            }
+        },
+        "mydata": {
+            "files": [
+                "mydata.zip"
+            ],
+            "dirs": []
+        }
+    }
+}
