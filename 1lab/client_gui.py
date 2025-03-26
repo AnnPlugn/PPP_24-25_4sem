@@ -3,6 +3,7 @@ import json
 import tkinter as tk
 from tkinter import ttk, messagebox
 
+
 class ClientGUI:
     def __init__(self, root):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -80,6 +81,7 @@ class ClientGUI:
     def on_closing(self):
         self.client.close()
         self.root.destroy()
+
 
 if __name__ == "__main__":
     root = tk.Tk()
