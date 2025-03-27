@@ -1,21 +1,18 @@
 from logging.config import fileConfig
 from sqlalchemy import engine_from_config, pool
 from alembic import context
-from app.db.base import Base  # Импорт метаданных моделей
-from app.core.config import settings  # Импорт настроек проекта
+from app.db.base import Base
+from app.core.config import settings
 
-# Это объект конфигурации Alembic, предоставляющий доступ к значениям из .ini файла
 config = context.config
 
-# Установка URL базы данных из настроек проекта
 config.set_main_option("sqlalchemy.url", settings.DATABASE_URL)
 
-# Настройка логирования из конфигурационного файла
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Указание метаданных моделей для автогенерации миграций
 target_metadata = Base.metadata
+
 
 def run_migrations_offline() -> None:
     """Запуск миграций в 'offline' режиме."""
@@ -29,6 +26,7 @@ def run_migrations_offline() -> None:
 
     with context.begin_transaction():
         context.run_migrations()
+
 
 def run_migrations_online() -> None:
     """Запуск миграций в 'online' режиме."""
@@ -46,6 +44,7 @@ def run_migrations_online() -> None:
 
         with context.begin_transaction():
             context.run_migrations()
+
 
 if context.is_offline_mode():
     run_migrations_offline()

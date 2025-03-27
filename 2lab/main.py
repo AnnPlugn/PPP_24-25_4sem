@@ -5,8 +5,6 @@ from app.db.base import Base
 
 app = FastAPI()
 
-# Создание таблиц при запуске
 Base.metadata.create_all(bind=engine)
 
-# Подключение маршрутов
 app.include_router(router)
