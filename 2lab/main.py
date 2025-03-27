@@ -1,8 +1,12 @@
+from fastapi import FastAPI
+from app.api.endpoints import router
+from app.db.session import engine
+from app.db.base import Base
 
-def main():
-    # Ваш код здесь
-    pass
+app = FastAPI()
 
-if __name__ == "__main__":
-    main()
+# Создание таблиц при запуске
+Base.metadata.create_all(bind=engine)
 
+# Подключение маршрутов
+app.include_router(router)
